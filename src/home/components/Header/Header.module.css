@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700;800&family=Quicksand:wght@300&display=swap");
+
+.header {
+  height: 90vh;
+  width: 100%;
+  background-color: #fbd74d;
+}
+.header_text {
+  height: 53vh;
+  width: 27rem;
+  background-color: white;
+  box-shadow: 0.5px 0.5px 16px 0.5px rgba(0, 0, 0, 0.113);
+  border-radius: 10px;
+  padding: 10px 0 0 30px;
+  text-align: left;
+  /* margin: 8rem 0 0 5rem; */
+  margin: 5rem 0 0 7rem;
+}
+.header_text > h3 {
+  line-height: 20px;
+  font-size: 44px;
+  font-weight: 900;
+  color: #101928;
+  font-family: "Mulish", sans-serif;
+  margin-top: 1rem;
+  /* font-family: "Quicksand", sans-serif; */
+}
+
+.header_text > button {
+  width: 25rem;
+  height: 3.5rem;
+  font-size: 18px;
+  /* font-weight: 550; */
+  margin: 4rem 0 0 -1rem;
+  border: none;
+  background-color: #101928;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header_img {
+  width: 90vh;
+  height: 36vw;
+  /* border: 1px solid black; */
+  margin: -30rem 0 0 35rem;
+  background-image: url("/public/kidi1-removebg-preview\ \(1\).png");
+  background-position: center;
+  background-size: cover;
+}

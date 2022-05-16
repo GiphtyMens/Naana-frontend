@@ -1,0 +1,80 @@
+.category {
+  min-height: 50vh;
+  width: 100%;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.category > h1 {
+  font-size: 48px;
+  text-align: left;
+  padding-left: 6rem;
+  font-family: "Mulish", sans-serif;
+  font-weight: 800;
+  color: #101928;
+}
+
+.category_container {
+  min-height: 32vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  /* border: 1px solid black; */
+  /* top: 0; */
+  margin-top: -1.7rem;
+}
+
+.category_card {
+  height: 25vh;
+  width: 13rem;
+  border-radius: 10px;
+  box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.376);
+  display: grid;
+  grid-template-rows: 75% 25%;
+  /* justify-content: center; */
+}
+
+.cc_img1,
+.cc_text {
+  width: 100%;
+  /* border: 1px solid black; */
+}
+
+.cc_img1 {
+  background-image: url("/public/categories/img1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.cc_img2 {
+  background-image: url("/public/categories/nail.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.cc_img3 {
+  background-image: url("/public/categories/barbering.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.cc_img4 {
+  background-image: url("/public/categories/spa.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.cc_text {
+  height: 100%;
+  align-items: center;
+  /* border: 1px solid black; */
+  padding-top: 0.5rem;
+}
+.cc_text > span {
+  font-family: "Mulish", sans-serif;
+  /* border: 1px solid black; */
+  font-size: 16px;
+  margin-top: 1rem;
+}

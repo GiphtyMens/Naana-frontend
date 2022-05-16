@@ -1,0 +1,91 @@
+.first_row,
+.second_row {
+  height: 45vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem 0 0 0;
+}
+
+.fr_fb,
+.fr_sb,
+.fr_tb,
+.sr_fb,
+.sr_sb,
+.sr_tb {
+  height: 45vh;
+  width: 25vw;
+  border: 0 solid black;
+  border-radius: 10px;
+  box-shadow: 1px 1px 8px 1px gray;
+}
+
+.fr_fb > h5,
+.fr_sb > h5,
+.fr_tb > h5,
+.sr_fb > h5,
+.sr_sb > h5,
+.sr_tb > h5 {
+  height: 30vh;
+  width: 25vw;
+}
+
+.fr_fb > h5{
+    background-image: url("/public/images\ \(12\).jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.fr_sb > h5{
+    background-image: url("/public/engin-akyurt-35NAaB_Nmx8-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.fr_tb > h5{
+    background-image: url("/public/hn-2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.sr_fb > h5{
+    background-image: url("/public/images\ \(4\).jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.sr_sb > h5{
+    background-image: url("/public/images/crew-cut_jpg-600x390.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.sr_tb > h5{
+    background-image: url("/public/download\ \(4\).jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.fr_fb > h2,
+.fr_sb > h2,
+.fr_tb > h2,
+.sr_fb > h2,
+.sr_sb > h2,
+.sr_tb > h2 {
+  font-size: 20px;
+  text-align: left;
+  margin: 10px;
+  font-weight: 800;
+}
+
+.fr_fb > h3,
+.fr_sb > h3,
+.fr_tb > h3,
+.sr_fb > h3,
+.sr_sb > h3,
+.sr_tb > h3 {
+  font-size: 17px;
+  text-align: left;
+  line-height: 13px;
+  margin: 10px;
+}

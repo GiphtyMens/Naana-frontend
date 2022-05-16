@@ -1,0 +1,100 @@
+.main_description {
+  height: 100vh;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.first_row, .second_row {
+  height: 45vh;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.description_card1,
+.description_card2,
+.description_card3,
+.des_card1,
+.des_card2,
+.des_card3 {
+  height: 45vh;
+  width: 30%;
+  /* border: 1px solid black; */
+  margin: 0 20px 0 20px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.376);
+}
+
+.description_card1 > h5,
+.description_card2 > h5,
+.description_card3 > h5,
+.des_card1 > h5,
+.des_card2 > h5,
+.des_card3 > h5 {
+  height: 28vh;
+  width: 95%;
+  /* border: 1px solid black; */
+  margin: 0.5rem 0 0 0.5rem;
+  background-position: center;
+  background-size: cover;
+}
+
+.description_card1 > h5 {
+  background-image: url("/public/low-fade_jpg-600x390.jpg");
+}
+
+.description_card2 > h5 {
+  background-image: url("/public/high-fade_jpg-600x390.jpg");
+}
+
+.description_card3 > h5 {
+  background-image: url("/public/mid-fade_jpg-600x390.jpg");
+}
+
+.des_card1 > h5{
+    background-image: url("/public/crew-cut_jpg-600x390.jpg");
+}
+
+.des_card2 > h5{
+    background-image: url("/public/buzzcut_jpg-600x390.jpg");
+}
+
+.des_card3 > h5{
+    background-image: url("/public/quiff_jpg-600x390.jpg");
+}
+
+.description_card1 > h1,
+.description_card2 > h1,
+.description_card3 > h1,
+.des_card1 > h1,
+.des_card2 > h1,
+.des_card3 > h1 {
+  margin: 0 0 0 -12rem;
+  font-weight: 800;
+}
+
+.description_card1 > p,
+.description_card2 > p,
+.description_card3 > p,
+.des_card1 > p,
+.des_card2 > p,
+.des_card3 > p {
+  text-align: justify;
+  margin: 0 3rem 0 3rem;
+  line-height: 17px;
+}
+
+.description_card1 > h2,
+.description_card2 > h2,
+.description_card3 > h2,
+.des_card1 > h2,
+.des_card2 > h2,
+.des_card3 > h2 {
+  margin: 0 0 0 -13rem;
+  font-weight: 800;
+  color: brown;
+}
+
+
